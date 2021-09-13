@@ -69,24 +69,23 @@
   padding-left: 15px;
 }
 .lastpage {
-  margin-left: 400px;
+  margin-left: 200px;
   padding: 3px;
   margin-top: 15px;
   padding: 10px;
 }
-.lastpage h2 {
-  background-color: rgb(67, 67, 200);
-  width: 170px;
-  padding-left: 10px;
-  margin: 8px;
-}
+
 .active_class {
   list-style: none;
   text-decoration: none;
   font-size: larger;
   color: white;
 }
-
+.active-class {
+  list-style: none;
+  text-decoration: none;
+  font-size: larger;
+}
 .singup h2 {
   padding: 8px 5px 0px 0px;
   margin: 40px 90px 0px 200px;
@@ -134,8 +133,9 @@
 }
 
 .ord {
-  margin-left: 22%;
+  margin-left: 1%;
   margin-top: 3%;
+  background-color: blue;
 }
 .img {
   width: 35px;
@@ -175,7 +175,6 @@
   #num-1 {
     display: block;
 
-    background-color: red;
     margin-left: 0%;
   }
 }
@@ -215,6 +214,12 @@
 }
 @media (max-width: 900px) {
   #nem {
+    background-color: rgb(67, 67, 200);
+  }
+}
+@media (max-width: 900px) {
+  #or {
+    margin-right: 50%;
     background-color: rgb(67, 67, 200);
   }
 }

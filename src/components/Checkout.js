@@ -5,10 +5,10 @@ import "./cart.css";
 const Checkout = () => {
   return (
     <div className="lastpage">
-      <h1>THANK YOU FOR YOUR ORDER</h1>
+      <h1 id="las">THANK YOU FOR YOUR ORDER</h1>
 
       <button className="ord">
-        <NavLink className="active_class" to="/cart">
+        <NavLink className="active-class" to="/cart">
           Order Again
         </NavLink>
       </button>
