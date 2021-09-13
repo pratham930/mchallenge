@@ -121,9 +121,9 @@
   display: grid;
   grid-template-columns: auto auto auto;
   float: left;
-  grid-gap: 5px;
-  margin-left: 15px;
-  padding: 5px;
+  grid-gap: 3px;
+  margin-left: 20px;
+  padding: 3px;
 }
 .grid-containers > div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -221,5 +221,10 @@
   #or {
     margin-right: 50%;
     background-color: rgb(67, 67, 200);
+  }
+}
+@media (max-width: 700px) {
+  #cont {
+    margin-left: 70%;
   }
 }
